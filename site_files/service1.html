@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ru" manifest="default.appcache">
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+  <title>Portfolio | PROCONNECT DIGITAL AGENCY</title>
+	
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Proconnect">
+  <meta name="apple-mobile-web-app-title" content="Proconnect">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-starturl" content="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="375">
+  <link rel="apple-touch-startup-image" href="assets/images/1.jpg">
+
+  <script>$('a:not(".colorbox")').bind('click',function(e) { 
+		e.preventDefault();
+		var site = /mysite\\.ru/;
+		var url = $(this).attr('href');
+		if (/^(http|https|ftp)/.test(url) && !site.test(url)) {
+		  window.location = url;
+		}
+		if (url == '/') {
+		  window.location = url;
+		}
+	  });
+	</script>
+
+<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+
+<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+<link rel="manifest" href="assets/images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <meta content="" name="geo.region">
+
+
+	<link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/lib/slick/slick.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700%7CWork+Sans:400,500,600,700">
+	<link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+	<!-- <div id="page-loader"> -->
+		<!-- <i class="fa fa-cog fa-spin grad-text grad-2"></i> -->
+	<!-- </div> -->
+
+	<header>
+			<nav class="side-menu-container" id="mobile-menu">
+			<ul class="mx-auto top-level clearfix">
+				<li class="with-submenu">
+					<a href="index1.html#">HOME</a>
+				</li>
+				<li class="with-submenu">
+					<a href="about1.html#">ABOUT US</a>
+				</li>
+				<li class="with-submenu">
+					<a href="service.html#">SERVICES<span class="arrow"></span></a>
+					<ul class="mobile-submenu">
+						<li><a href="service1.html">WEB</a></li>
+						<li><a href="service2.html">APP</a></li>
+						<li><a href="service3.html">MARKETING</a></li>
+						<li><a href="service4.html">BRANDING</a></li>
+					</ul>
+				</li> 
+				<li class="with-submenu">
+					<a href="portfolio-5-cols.html#">PORTFOLIO</a>
+				</li> 
+									
+				<li class="with-submenu">
+					<a href="blog.html#">BLOG</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACTS</a>
+				</li>
+			</ul>
+		</nav>
+			<div class="pos-r">
+				<div id="topbar" class="clearfix">
+	
+					<div class="top-util pull-right">
+						<div class="lang-selection">
+							<a href="index1.html#"></a>
+							<ul class="lang">
+							<!--	<li><a href="index1.html#"><img src="assets/images/flag-de.png" alt="de">DE</a></li>
+								<li><a href="index1.html#"><img src="assets/images/flag-fr.png" alt="fr">FR</a></li>-->
+							</ul>
+						</div>
+					<!--	<div class="cart">
+							<a href="index1.html#"><i class="fa fa-briefcase"></i><span>2</span></a>
+							<div class="cart-container">
+								<h6>SHOPPING CART (2)</h6>
+								<div class="cart-item clearfix">
+									<img src="assets/images/related1.jpg" alt="cart item" class="pull-left">
+									<a href="index1.html#">How to become an UX Designer</a>
+									<p class="quantity">1x $39,99</p>
+									<button class="remove">x DELETE</button>	
+								</div>
+								<div class="cart-item clearfix">
+									<img src="assets/images/related2.jpg" alt="cart item" class="pull-left">
+									<a href="index1.html#">How to become an UX Designer</a>
+									<p class="quantity">1x $39,99</p>
+									<button class="remove">x DELETE</button>
+								</div>
+								<div class="cart-controls">
+									<a href="index1.html#" class="button-link-1 pull-right alt-bg-2">VIEW CART</a>
+									<a href="index1.html#" class="button-link-1">+ ADD ITEM</a>
+								</div>
+							</div>
+						</div>
+						<div class="search">
+							<a href="index1.html#" class="search"><i class="fa fa-search zmdi-lg"></i></a>
+							<div class="search-something">
+								<input type="search" placeholder="search for something">
+								<a href="index1.html#"><i class="fa fa-search zmdi-lg"></i></a>
+							</div>
+						</div>-->
+						<div class="side-menu">
+							<a href="index1.html#" class="side-menu-button"><span></span><span></span><span></span></a>
+						</div>
+	
+					</div>
+	
+					<div class="logo pull-left">
+						<a href="index1.html">
+							<h1><img src="assets/images/3.png" alt="logo"></h1>
+						</a>
+					</div>
+					<nav id="desktop-menu">
+					<ul class="mx-auto top-level clearfix">
+						<li class="with-submenu">
+							<a href="index1.html#" class="link-hover">HOME</a>
+						</li>
+						<li class="with-submenu">
+							<a href="about1.html#" class="link-hover">ABOUT US</a>
+						</li>
+						<li class="with-submenu">
+							<a href="service.html#" class="link-hover">SERVICES</a>
+							<ul class="submenu simple-menu">
+									<li><a href="service1.html">WEB</a></li>
+									<li><a href="service2.html">APP</a></li>
+									<li><a href="service3.html">MARKETING</a></li>
+									<li><a href="service4.html">BRANDING</a></li>
+							</ul>
+						</li> 
+						<li class="with-submenu">
+							<a href="portfolio-5-cols.html#" class="link-hover">PORTFOLIO</a>
+						
+						</li>				
+						<li class="with-submenu">
+							<a href="blog.html#" class="link-hover">BLOG</a>
+						
+						</li>
+						<li>
+							<a class="link-hover" href="contact.html">CONTACTS</a>
+						</li>
+					</ul>
+
+			</nav>
+			</div>
+		</div>
+			
+		<div class="header-content fullheight">
+			<div class="slick-header fullheight">
+				<div class="header-slide slide-4 text-blended">
+					<img src="assets/images/slider-bg-4.jpg" alt="Slider Background" class="slider-background">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7">
+								<h2>
+									<span class = "typewrite" data-period = "2000" data-type = '["We develop sites", "Landing Page", "Corporate site", "Online store", "Customize advertising |" , "Promote SEO |"] '><span class = "nowrapped"> </span>
+									</span>
+								</h2>
+							</div>
+						</div>
+						
+						<a href="contact.html#order" class="button-link-1 style-4 pushtop-30">DISCUSS THE PROJECT<i class="fa fa-caret-right"></i></a>	
+					</div>
+				</div>
+			
+
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+			<div class="widget-3 pushtop-220 drag-this-up">
+					<div class="container-fluid">
+						<p class="pretitle text-center">SERVES</p>
+						<h3 class="text-center">We create </h3>
+						
+							<div id="portfolio-widget-tab-content" class="row pushtop-50">
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<img src="assets/images/lending.svg"  style="padding: 5% 15% 5% 15%" alt="blog">
+										<div class="inner-wrapper"  style="text-align: center;">
+											<h6> Corporate website </h6>
+<p> from <strong> 2 </strong> 000 000 sum </p>
+</div>
+
+</a>
+</div>
+
+<div class = "col-lg-3 col-sm-6 default portfolio-typo">
+<a href="#" class="portfolio-item">
+<div class = "inner-wrapper">
+<h6> Landing Page </h6>
+<p> from <strong> 1 </strong> 000 000 sum </p>
+</div>
+<p>
+Do you provide a unique service or product? Or do you have a unique service that only you can boast of?
+You need a WOW effect, good marketing and of course ... Landing Page
+
+</p> <br>
+<p>
+Landing Page is a page that often contains more useful information than an entire website.
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+							 	<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<div class="inner-wrapper">
+											<h6> Business card website </h6>
+<p> from <strong> 800 </strong> 000 sum </p>
+</div>
+<p>
+Do you provide services, but are still not represented on the Internet? Stop losing
+potential customers and entrust us to make a beautiful and understandable business card website for your service.
+
+</p> <br>
+<p>
+A business card for a low cost of creating a website will give a positive effect for your business.
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+										<a href="#" class="portfolio-item">
+											<div class="inner-wrapper">
+												
+<h6> Online store </h6>
+<p> from <strong> 3 </strong> 000 000 sum </p>
+</div>
+<p>
+What is required for successful online trading? High-quality website, convenient for
+users tailored for usability and marketing; and SEO optimized for search.
+</p> <br>
+<p>
+When ordering an online store, you can choose the functionality that you need.
+
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+											</div>
+										</a>
+									</div>
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<div class="inner-wrapper">
+											
+<h6> Web Application </h6>
+<p> from <strong> 5 </strong> 000 000 sum </p>
+</div>
+<p>
+A web application is a timely and optimal solution for a modern website or
+corporate portal for reliable and uninterrupted operation of one or more offices.
+
+</p> <br>
+<p>
+We will create a high-quality, modern and stylish solution for you and your company.
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<div class="inner-wrapper">
+											
+<h6> Site directory </h6>
+<p> from <strong> 2 </strong> 000 000 sum </p>
+</div>
+<p>
+An alternative solution to the online store, if it is enough for you to receive applications
+from the site about the interest of users in your product, without the functions of selling through the site, and receiving payments.
+
+</p> <br>
+<p>
+A catalog site is a symbiosis of a business card site and a product catalog, an online showcase.
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<div class="inner-wrapper">
+											
+<h6> Notice board </h6>
+<p> from <strong> 5 </strong> 000 000 sum </p>
+</div>
+<p>
+If you need a high-quality, powerful ad service, dynamic, with functionality
+developed for you and your requirements, then opt for this option.
+
+</p> <br>
+<p>
+The price for a site of this type is less than for sites with portals that can combine many services.
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+								<div class="col-lg-3 col-sm-6 default portfolio-typo">
+									<a href="#" class="portfolio-item">
+										<div class="inner-wrapper">
+											<h6> Portal </h6>
+<p> from <strong> 10 </strong> 000 000 sum </p>
+</div>
+<p>
+Doesn't your city have its own internet portal yet? Or do you have an idea to provide
+new, not yet promoted service or information? The site portal is your choice.
+
+</p> <br>
+<p>
+Portals are developed exclusively with a complete and detailed technical specification
+</p>
+<div class = "inner-wrapper">
+<div class = "plus-sign"> <span> + </span> </div>
+<p> </p>
+<h6> Learn More </h6>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+				</div>
+				
+		<div class="widget-11 pushtop-100">
+				<div class="container-fluid text-center">
+					
+					<h3>Our sites:</h3>
+					<div class="row pushtop-70">
+						<div class="col-lg-4 text-right">
+							<div class="widget-11-elm clearfix drag-this-left">
+								<img src="assets/images/widget-11-1.png" class="pull-right" alt="widget-img">
+								<section>
+									
+<h6> <a href="service.html#"> Responsive for all devices </a> </h6>
+<p>
+The site will look great both on widescreen
+screens and on laptops, tablets and smartphones.
+</p>
+</section>
+</div>
+<div class = "widget-11-elm clearfix drag-this-left">
+<img src = "assets/images/widget-11-3.png" class = "pull-right" alt = "widget-img">
+<section>
+<h6> <a href="service.html#"> Easy to use </a> </h6>
+<p>
+It will be convenient for users to find the information they need
+on the site, and it is convenient for you to publish and update it.
+</p>
+								</section>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="img-container drag-this-up">
+								<img src="assets/images/widget-11.png" alt="widget-img" class="img-fluid">	
+							</div>
+						</div>
+						<div class="col-lg-4 text-left">
+							<div class="widget-11-elm clearfix drag-this-right">
+								<img src="assets/images/widget-11-4.png" class="pull-left" alt="widget-img">
+								<section>
+									
+<h6> <a href="service.html#"> Highlighted </a> </h6>
+<p>
+Website design is your business card in the web world, we will make it in the best possible way
+</p>
+</section>
+</div>
+<div class = "widget-11-elm clearfix drag-this-right">
+<img src = "assets/images/widget-11-2.png" class = "pull-left" alt = "widget-img">
+<section>
+<h6> <a href="service.html#"> SEO optimized </a> </h6>
+<p>
+We put basic SEO optimization in every job
+</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+	
+			<div class = "widget-4 pushtop-130 drag-this-up">
+<div class = "container">
+<div class = "widget4-wrapper">
+
+<h3 class = "text-center"> STEPS OF CREATING A SITE </h3>
+<p class = "text-center">
+When creating sites, or performing any other work, we take into account the specifics of the client's activities,
+regional focus of business and other important factors that affect the process and result of work and business.
+</p>
+<div class = "widget-4-progress clearfix">
+<div class = "progress-item">
+<a href="index1.html#" data-target="item-1"> 01 </a>
+</div>
+<div class = "progress-item">
+<a href="index1.html#" class="progress-item" data-target="item-2"> 02 </a>
+</div>
+<div class = "progress-item">
+<a href="index1.html#" class="progress-item" data-target="item-3"> 03 </a>
+</div>
+<div class = "progress-item">
+<a href="index1.html#" class="progress-item" data-target="item-4"> 04 </a>
+</div>
+
+</div>
+							<div class = "widget-4-progress-detail">
+<div class = "widget-4-progress-item item-1 active">
+<div class = "row">
+<div class = "col-md-5">
+<h4> Development and approval of site design. </h4>
+</div>
+<div class = "col-md-7">
+<p>
+At the first stage of website development, the design of the main page and the main internal pages of the project is being worked out.
+</p>
+</div>
+</div>
+</div>
+<div class = "widget-4-progress-item item-2">
+<div class = "row">
+<div class = "col-md-5">
+<h4> Creation of a turnkey website, adaptive layout. </h4>
+</div>
+<div class = "col-md-7">
+<p>
+After the approval of the site design, the site programming stage follows according to the terms of reference and layout.
+</p>
+										</div>
+									</div>
+								</div>
+								<div class="widget-4-progress-item item-3">
+									<div class="row">
+										<div class="col-md-5">
+											<h4> Testing and test content of the site. </h4>
+</div>
+<div class = "col-md-7">
+<p>
+Further, the creation of sites requires testing the finished product both from the web studio and from the client, as well as the stage of filling the site.
+</p>
+</div>
+</div>
+</div>
+<div class = "widget-4-progress-item item-4">
+<div class = "row">
+<div class = "col-md-5">
+<h4> Launch and promotion of an Internet resource. </h4>
+</div>
+<div class = "col-md-7">
+<p>
+After the site testing is completed, the project is hosted on the client's hosting for further site maintenance and promotion.
+</p>
+										</div>
+									</div>
+								</div>
+								
+							</div><br>
+						</div><br>
+					</div><br>
+				</div>
+		
+
+				<div class="widget-20 text-center pushtop-30">
+						<p class="pretitle"></p>
+						<h3>SITE TYPES COMPARISON</h3>
+			
+						<div class="container">
+							<div class="row pushtop-50">
+								
+			
+			
+			
+			
+			
+			
+			
+			
+								<div class="col-md-3">
+									<div class="plan-box box-1 pushtop-30">
+										<p class = "pretitle"> CORPORATE SITE </p>
+<ul>
+<li> <strong> Unique design </strong> </li>
+<li> <strong> Responsive layout </strong> </li>
+<li> <strong> Nonlinear structure </strong> </li>
+<li> <strong> Customized functionality </strong> </li>
+<li> <strong> Product catalog </strong> </li>
+<li> <strong> Website content </strong> </li>
+<li> <strong> Initial SEO optimization </strong> </li>
+<li> <strong> Convenient control system </strong> </li>
+										</ul>
+									
+									</div>
+								</div>
+								
+								<div class="col-md-3">
+										<div class="plan-box box-1 pushtop-30">
+											
+<p class = "pretitle"> BUSINESS CARD SITE </p>
+<ul> <br> <br>
+<l> Unique design </strong> </li>
+<li> <strong> Responsive layout </strong> </li> <br>
+<l> Nonlinear structure </strong> </li>
+<li> <strong> Customized functionality </strong> </li> <br>
+<l> Product catalog </strong> </li> <br> <br>
+<l> Site filling </strong> </li> <br> <br>
+<l> Primary SEO optimization </strong> </li> <br> <br>
+<l> Convenient control system </strong> </li> <br> <br>
+											</ul>
+										
+										</div>
+									</div>
+							
+									<div class="col-md-3">
+											<div class="plan-box box-1 pushtop-30">
+												
+<p class = "pretitle"> SITE DIRECTORY </p>
+<ul> <br> <br>
+<l> Unique design </strong> </li>
+<li> <strong> Responsive layout </strong> </li> <br>
+<l> Nonlinear structure </strong> </li> <br> <br>
+<li> <strong> Customized functionality </strong> </li>
+<li> <strong> Product catalog </strong> </li> <br>
+<l> Site filling </strong> </li> <br> <br>
+<l> Initial SEO optimization </strong> </li>
+<li> <strong> Convenient control system </strong> </li>
+												</ul>
+											
+											</div>
+										</div>
+								<div class="col-md-3">
+									<div class="plan-box box-1 pushtop-30">
+										
+<p class = "pretitle"> LANDING PAGE </p>
+<ul> <br>
+<li> <strong> Unique design </strong> </li>
+<li> <strong> Responsive layout </strong> </li> <br>
+<l> Nonlinear structure </strong> </li>
+<li> <strong> Customized functionality </strong> </li> <br>
+<l> Product catalog </strong> </li>
+<li> <strong> Website content </strong> </li>
+<li> <strong> Initial SEO optimization </strong> </li>
+<li> <strong> Convenient control system </strong> </li>
+										</ul>
+									
+									</div>
+								</div>
+			
+							</div>
+						</div>
+					</div>
+			
+					<div class="widget-12 text-center pushtop-70 alt-bg-2">
+							<div class="container">
+									<p class = "pretitle"> START TODAY </p>
+<h3> Invest in your business now </h3>
+<div class = "row">
+<div class = "col-lg-10 offset-lg-1"> <br>
+<p>
+Don't miss your chance, <strong> free of charge </strong>, to get the information and knowledge that will become key for you in building a successful and effective business on the Internet.
+</p>
+										</div>
+									</div>
+									<div class="buttons pushtop-50">
+										<a href="contact.html#order" class="button-link-1">DISCUSS THE PROJECT <i class="fa fa-caret-right"></i></a>
+										
+									</div>
+								</div>
+					</div>
+
+
+
+	</main>
+
+	<footer>
+	
+			<div class="footer-main">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6">
+							<a href="index1.html#" class="footer-logo">
+								<img src="assets/images/top-logo.png" alt="logo">
+							</a>
+							
+						</div>
+						<div class="col-lg-2 col-md-6">
+							<h6>PROCONNECT</h6>
+							<ul>
+							<li><a href="about1.html#" class="link-hover">About Us</a></li>
+							<li><a href="service.html#" class="link-hover">Services</a></li><!--<a href="index1.html#" class="tag">HIRING</a></li>-->
+							<li><a href="portfolio-5-cols.html#" class="link-hover">Portfolio</a> 
+							<li><a href="blog.html#" class="link-hover">Blog</a></li>
+						</ul>
+					</div>
+				
+					<div class="col-lg-4 col-md-6">
+						<h6>CONTACTS</h6>
+						<ul class="contact footer-contact">
+							<li><a href=""><i class="fa fa-map-marker"></i> Uzbekistan, Tashkent city, Shaykhantakhur district, Sebzar street, building 5</a>
+							<li><a href="tel:+998909322220"><i class="fa fa-phone"></i>+998(90) 932-22-20</a>
+							<li><a href="href="mailto:mail@proconnect.uz?subject=Вопрос к PROCONNECT DIGITAL AGENCY""><span>@</span>mail@proconnect.uz</a>
+						</ul>
+						</div>
+						<div class="col-lg-1 col-md-6">
+								
+									<ul class="social-links" >	
+										<li><a href="https://instagram.com/proconnect.uz_"><i class="fa fa-instagram"></i></a></li><br>
+										<li><a href="https://t.me/Proconnect_uz"><i class="fa fa-telegram"></i></a></li><br>
+										<li><a href="https://www.facebook.com/proconnect.uz/"><i class="fa fa-facebook"></i></a></li><br>
+									</ul>
+							</div>
+					</div>
+				</div>
+				
+			</div>
+				
+			<div class="footer-bottom">
+				<div class="container">
+					<p class="copyright-text">Copyright <script>document.write(new Date().getFullYear());</script> &copy; Proconnect Digital Agency</p>
+				</div>
+			</div>	
+	
+		</footer>
+
+
+<script>
+	 
+	</script>
+
+
+<script src="assets/lib/jquery/jquery.js"></script>
+<script src="assets/lib/jquery-ui/jquery-ui.min.js"></script>
+<script src="assets/lib/slick/slick.min.js"></script>
+<script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/lib/visible/visible.js"></script>
+<script src="assets/lib/imagesLoaded/imagesLoaded.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
